@@ -20,7 +20,7 @@ def start_timer():
     new_word = random.choice(dictinary)
     words.append(new_word)
     canvas.itemconfig(word_text, text=new_word, font=(FONT_NAME, 25, "bold"))
-    count_down(15)
+    count_down(60)
 
 #Timer function
 def count_down(count):
